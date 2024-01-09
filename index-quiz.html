@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-quiz.css" />
+    <title>quiz</title>
+  </head>
+  <body>
+    
+    <div class="container" id="quiz">
+      
+      <div id="top" class="header">
+        <a href="main.html" class="name">←</a>
+        <a href="mailto:antonmorozov34283@gmail.com" class="menu-links">связаться со мной</a>
+      </div>
+
+
+      <div class="main-block">
+        <p id="question">текст вопроса</p>
+        <div class="ul">
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer">
+              <label for="a" id="a_text" class="label">вопрос</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="b" class="answer">
+              <label for="b" id="b_text" class="label">вопрос</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="c" class="answer">
+              <label for="c" id="c_text" class="label">вопрос</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="d" class="answer">
+              <label for="d" id="d_text" class="label">вопрос</label>
+            </li>
+          </ul>
+        </div>
+
+        <button class="button" id="submit">
+          ответить
+        </button>
+      </div>
+
+
+    <script src="script-quiz.js"></script>
+  </body>
+</html>
